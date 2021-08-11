@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.header {
+    background: #E5E5E5;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+}
+
+.header__logo {
+    width: 250px;
+}
+
+.container_f {
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: blueviolet;
+    align-items: center;
+
+}
+
+.container__logo {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__link {
+    display: inline-block;
+
+}
+
+.header__links {
+    text-decoration: none;
+    color: #000;
+}
+
+.header__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.header__button {
+
+    border: none;
+    background: #6F1EAA;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 35px;
+    margin: 30px;
+
+
+}
+
+.header__links:hover {
+    color: #b3b3b3;
+    transition: .7s;
+}
+
+.header__linkss {
+    color: #6F1EAA;
+    text-decoration: none;
+}
+
+.header__items~.header__items {
+
+    margin-left: 30px;
+
+}
+
+.header__linkss:hover
+{
+    color: #b3b3b3;
+    transition: .7s;
+}
+.header__button:hover
+{
+    background: #000;
+    transition: .7s;
+}
+
+.container_footer
+{
+
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.footer{
+    background-color: #48156D;
+
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu{
+   
+    color: #fff;
+    
+}
+.bir
+{
+    color: #C282F0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  
+}
+
+.footer_menu~.footer_menu{
+    padding-bottom: 5px;
+
+}
+
+.header__linksss
+{
+    color: #fff;
+    text-decoration: none;
+}
+.header__linksss:hover{
+    color: #000;
+    transition: .7s;
+}
+.footer__content{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    
+}
+.abs{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.footer__menu{
+    color: #fff;
+    margin-right: 100px;
+}
+
+
