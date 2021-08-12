@@ -240,3 +240,44 @@ p{
     color: tomato;
     transition: .7s;
 }
+
+.container___menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.menu_h{
+font-size: 44px;
+width: 520px;
+text-align: left;
+}
+
+.menu_text{
+    font-size: 24px;
+    width: 460px;
+    border: 2px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.text{
+    font-size: 16px;
+    text-align: left;
+}
+.textt{
+    font-size: 15px;
+    text-align: left;
+    
+
+}
+.tex{
+    font-size: 11px;
+    text-align: left;
+    
+}
+
