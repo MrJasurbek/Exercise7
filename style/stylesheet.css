@@ -280,4 +280,61 @@ text-align: left;
     text-align: left;
     
 }
+.works{
+    background-color: #FAF9F6;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.how_it{
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
 
+.how_img
+{
+
+   border-radius: 50%;
+   background-color: #FFF7C2;
+   
+}
+
+.how_text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.how_ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.how__text{
+    width: 360px;
+}
+
+.how_link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.how_link:hover{
+    color:darkgreen;
+    transition: .7s;  
+}
+
+.how__text{
+    font-size: 16px;
+}
+
+.how___text{
+    width: 320px;
+    font-size: 11px;
+    margin-left: 50px;
+}
